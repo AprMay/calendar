@@ -26,7 +26,8 @@
                 defaultDate: '<?php echo date("Y-m-d",time());?>',
                 navLinks: true, // can click day/week names to navigate views
                 editable: true,
-                aspectRatio:1.5,
+                aspectRatio:1.6,
+                locale:'zh-cn',
                 handleWindowResize:true,
                 eventLimit: true, // allow "more" link when too many events
                 events: <?php echo $events;?>
